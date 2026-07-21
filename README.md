@@ -111,13 +111,12 @@ to total seconds for easier numerical analysis.
 
 ```
 .
-├── app.py
+├── Dashboard.py
 ├── Aggregated_Metrics_By_Video.csv
 ├── Aggregated_Metrics_By_Country_And_Subscriber_Status.csv
 ├── Video_Performance_Over_Time.csv
 ├── requirements.txt
 ├── README.md
-└── images/
 ```
 
 ---
@@ -157,7 +156,7 @@ pip install -r requirements.txt
 Run the application
 
 ```bash
-streamlit run app.py
+streamlit run Dashboard.py
 ```
 
 ---
