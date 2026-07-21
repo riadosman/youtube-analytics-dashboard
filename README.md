@@ -51,7 +51,6 @@ You can add screenshots here.
 
 ```
 images/
-├── dashboard.png
 ├── aggregate_metrics.png
 └── individual_video.png
 ```
@@ -59,7 +58,7 @@ images/
 Example:
 
 ```markdown
-![Dashboard](images/dashboard.png)
+![Dashboard](images/aggregate_metrics.png)
 ```
 
 ---
@@ -117,6 +116,8 @@ to total seconds for easier numerical analysis.
 ├── Video_Performance_Over_Time.csv
 ├── requirements.txt
 ├── README.md
+├── images
+
 ```
 
 ---
