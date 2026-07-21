@@ -46,20 +46,21 @@ This helps determine whether a video's early performance is above or below histo
 ---
 
 ## Dashboard Preview
+---
 
-You can add screenshots here.
+### Aggregate Metrics
 
-```
-images/
-├── aggregate_metrics.png
-└── individual_video.png
-```
+<p align="center">
+  <img src="images/aggregate_metrics.png" width="900">
+</p>
 
-Example:
+---
 
-```markdown
-![Dashboard](images/aggregate_metrics.png)
-```
+### Individual Video Analysis
+
+<p align="center">
+  <img src="images/individual_video.png" width="900">
+</p>
 
 ---
 
