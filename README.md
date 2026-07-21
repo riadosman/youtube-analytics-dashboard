@@ -51,7 +51,6 @@ You can add screenshots here.
 
 ```
 images/
-├── dashboard.png
 ├── aggregate_metrics.png
 └── individual_video.png
 ```
@@ -59,7 +58,7 @@ images/
 Example:
 
 ```markdown
-![Dashboard](images/dashboard.png)
+![Dashboard](images/aggregate_metrics.png)
 ```
 
 ---
@@ -111,13 +110,14 @@ to total seconds for easier numerical analysis.
 
 ```
 .
-├── app.py
+├── Dashboard.py
 ├── Aggregated_Metrics_By_Video.csv
 ├── Aggregated_Metrics_By_Country_And_Subscriber_Status.csv
 ├── Video_Performance_Over_Time.csv
 ├── requirements.txt
 ├── README.md
-└── images/
+├── images
+
 ```
 
 ---
@@ -157,7 +157,7 @@ pip install -r requirements.txt
 Run the application
 
 ```bash
-streamlit run app.py
+streamlit run Dashboard.py
 ```
 
 ---
@@ -239,4 +239,4 @@ Software Engineering Student
 Building practical AI, Data Analytics, and Software Engineering projects while learning in public.
 
 GitHub: https://github.com/riadosman
-LinkedIn: https://www.linkedin.com/in/riad-osman-b54343226/"# youtube-analytics-dashboard" 
+LinkedIn: https://www.linkedin.com/in/riad-osman-b54343226/
